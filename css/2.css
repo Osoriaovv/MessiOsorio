@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@keyframes Opacidad {
+    from {
+        opacity: 20%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+body {
+background-image: url(../images/Biografia.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgb(255, 0, 43);
+    border: 4px rgb(255, 0, 43);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+h1 {
+    font-family: Terminator Real NFI;
+    color: lightgray;
+}
+p {
+    font-family: "Varela Round", serif;
+    font-size: 20px;
+    color: lightgray;
+
+}
+.Biografia {
+    position: absolute; top: 5%; left: 1%;
+    width: 700px;
+    margin: 10px;
+    animation: Opacidad 2s normal;
+}
+.Biografia1 {
+    position: absolute; top: 5%; left: 39%;
+    width: 700px;
+    margin: 10px;
+    animation: Opacidad 2s normal;
+}

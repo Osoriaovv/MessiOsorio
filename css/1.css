@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+body {
+background-image: url(../images/Main.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgba(250, 165, 179, 0.548);
+    border: 4px rgba(255, 192, 203, 0.548);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+#LIONEL {
+    font-size:100px;
+    font-family: Terminator Real NFI;
+    position: relative;top: 275px; left: 200px;
+    animation: Opacidad 3s normal;
+}
+#Lionel {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    box-sizing: content-box;
+}
+#MESSI {
+    font-size: 150px;
+    font-family: Terminator Real NFI;
+    position: relative; top: 200px; left: 200px;
+    animation: Opacidad 3s normal;
+}
+#Messi {
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    box-sizing: content-box;
+}
+@keyframes Opacidad {
+    from {
+        transform: translateX(-20px);
+        opacity: 0%;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}

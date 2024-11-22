@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+body {
+background-image: url(../images/Goles.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgb(18, 152, 230);
+    border: 4px rgba(255, 192, 203, 0.548);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+#gol {
+    height: 250px;
+}
+.video1 {
+    position: absolute;top: 100px;left: 30px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}
+.video2 {
+    position: absolute;top: 100px;left: 550px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}
+.video3 {
+    position: absolute;top: 380px;left: 30px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}
+.video4 {
+    position: absolute;top: 380px;left: 550px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}
+.video5 {
+    position: absolute;top: 680px;left: 30px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}
+.video6 {
+    position: absolute;top: 680px;left: 550px;
+    border: 5px solid rgba(94, 146, 241, 0.699);
+    border-radius: 5px;
+    box-shadow: 5px 2px 3px #002fff;
+}

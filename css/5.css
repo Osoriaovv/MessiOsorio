@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+body {
+background-image: url(../images/Individual.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgba(251, 255, 0, 0.548);
+    border: 4px rgba(255, 192, 203, 0.548);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+.Trofeos{
+    position: absolute;top: 200px; left: 200px;
+}
+#Trofeos {
+    height: 150px;
+}
+.cantidad{
+position: absolute;top: 340px;left: 200px;
+}
+#cantidad {
+    font-family: Terminator Real NFI;
+    font-size: 50px;
+    word-spacing: 25px;
+}
+.Messi {
+position: absolute;top: 200px;left: 150px;
+height: 500px;
+width: 900px;
+background-color: #101010;
+border-radius: 6%;
+box-shadow: 16px 14px 20px #0000008c;
+position: relative;
+overflow: hidden;
+}

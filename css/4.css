@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+h1 {
+    font-family: Terminator Real NFI;
+    font-size: 25px;
+}
+p {
+    color: rgb(65, 61, 61);
+    }
+body {
+background-image: url(../images/Seleccion.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgba(22, 168, 194, 0.548);
+    border: 4px rgba(255, 192, 203, 0.548);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+#logo2 {
+    height: 310px;
+}
+.div1 {
+    display:flex;
+    position: absolute;bottom: 600PX; left: 300px;
+}
+#Afa {
+    position: relative;top: -120px;left: 525px;
+    width: 400px;
+}
+.Titulos {
+    position: absolute; top: 400px;left: 250px;
+}
+#TitulosAfa {
+    height: 150px;
+}
+.cantidad {
+position: absolute;top: 550px;left: 270px;
+}
+#cantidad {
+font-size: 50px;
+word-spacing: 50px;
+}

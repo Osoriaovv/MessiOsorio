@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Terminator Real NFI;
+    src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
+}
+@keyframes logo {
+    from {
+        opacity: 00%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+@keyframes equipos {
+    from {
+        transform: translateX(-20px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes titulos {
+    from{
+        transition: eight;
+    }
+    to{
+
+    }
+}
+body {
+background-image: url(../images/Equipos.jpg);
+background-repeat: no-repeat;
+background-size:cover
+}
+center {
+    color: rgb(41, 38, 38);
+    font-size: 25px;
+    background-color: rgba(37, 35, 36, 0.548);
+    border: 4px rgba(255, 192, 203, 0.548);
+    border-radius: 20px;
+}
+#Menu {
+    margin: 8px;
+    font-family: Terminator Real NFI;
+}
+a{
+    color: rgb(44, 41, 41);
+    text-decoration: none;
+}
+#logo{
+    height: 200px;
+    position: relative;top: 0px; left: 1750px;
+    animation: logo 2s normal;
+}
+#logo2 {
+    height: 210px;
+    animation: equipos 2s normal;
+}
+#logo3 {
+    height: 240px;
+    animation: equipos 2s normal;
+}
+#logo4 {
+    height: 200px;
+    animation: equipos 2s normal;
+}
+#logo5 {
+    height: 250px;
+    animation: equipos 2s normal;
+}
+.div1 {
+    display:flex;
+    position: absolute;bottom: 600PX; left: 300px;
+}
+.div2 {
+    display:flex;
+    position: absolute;bottom: 360PX; left: 290px;
+}
+.div3 {
+    display:flex;
+    position: absolute;bottom: 150PX; left: 235px;
+}
+h1 {
+    font-family: Terminator Real NFI;
+    font-size: 25px;
+}
+#Barcelona {
+position: relative;top: -120px;left: 525px;
+width: 450px;
+animation: equipos 2s normal;
+}
+#Paris {
+position: relative;top:-90px;left: 525px;
+width: 450px;
+animation: equipos 2s normal;
+}
+#Inter {
+position: relative;top:-50px ;left: 525px;
+width: 400px;
+animation: equipos 2s normal;
+}
+p {
+color: rgb(65, 61, 61);
+}
+.Barca {
+    position: absolute;top: -500px;right: -800px;
+    width:800px;
+    height: 100px;
+}
+.cantidad {
+    position: absolute; top:-400px;right: -630px;
+}
+#cantidad {
+    word-spacing: 40px;
+}
+.Psg {
+position: absolute; top: -240px;right: -700px;
+width: 600px;
+height: 100px;
+}
+.cantidad_1 {
+    position:relative; top: -0px;right: -20px;
+}
+#cantidad_1 {
+    word-spacing: 60px;
+}
+.Inter {position: absolute; top: -10px;right: -200px;
+
+}
+.cantidad_2 {
+ position: relative ;top: -0px; right: -28px;
+}
+#cantidad_2 {
+word-spacing: 70px;
+}
