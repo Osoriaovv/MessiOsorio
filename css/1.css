@@ -2,7 +2,7 @@
     font-family: Terminator Real NFI;
     src: url(../Fonts/terminator_real_nfi/terminator\ real\ nfi.ttf);
 }
-@keyframes logo {
+@keyframes Menu {
     from {
         opacity: 00%;
     }
@@ -13,7 +13,10 @@
 body {
 background-image: url(../images/Main.jpg);
 background-repeat: no-repeat;
-background-size:cover
+background-size:cover;
+background-position: left;
+background-attachment: fixed;
+overflow: hidden;
 }
 center {
     color: rgb(41, 38, 38);
@@ -21,6 +24,7 @@ center {
     background-color: rgba(250, 165, 179, 0.548);
     border: 4px rgba(255, 192, 203, 0.548);
     border-radius: 20px;
+    animation: Menu 3s normal;
 }
 #Menu {
     margin: 8px;
@@ -30,15 +34,10 @@ a{
     color: rgb(44, 41, 41);
     text-decoration: none;
 }
-#logo{
-    height: 200px;
-    position: relative;top: 0px; left: 1750px;
-    animation: logo 2s normal;
-}
 #LIONEL {
     font-size:100px;
     font-family: Terminator Real NFI;
-    position: relative;top: 275px; left: 200px;
+    position: relative; top: 275px; left: 200px;
     animation: Opacidad 3s normal;
 }
 #Lionel {
@@ -67,5 +66,34 @@ a{
     to {
         transform: translateX(0);
         opacity: 100%;
+    }
+}
+@media screen and (min-width: 300px) {
+    #LIONEL {
+        font-size: 45px;
+        top: 360px;
+        left: 0px;
+    }
+
+    #MESSI {
+        font-size: 60px;
+        top: 320px;
+        left: 0px; 
+    }
+}
+@media screen and (min-width: 800px) {
+    #LIONEL {
+        font-size: 45px;
+        top: 50px;
+        left: 20px;
+    }
+
+    #MESSI {
+        font-size: 60px;
+        top: 10px;
+        left: 20px; 
+    }
+    center {
+        background-color: rgba(250, 165, 179, 0.363);
     }
 }
