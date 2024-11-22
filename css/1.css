@@ -37,7 +37,7 @@ a{
 #LIONEL {
     font-size:100px;
     font-family: Terminator Real NFI;
-    position: relative; top: 275px; left: 200px;
+    position: relative; top: 575px; left: 100px;
     animation: Opacidad 3s normal;
 }
 #Lionel {
@@ -49,7 +49,7 @@ a{
 #MESSI {
     font-size: 150px;
     font-family: Terminator Real NFI;
-    position: relative; top: 200px; left: 200px;
+    position: relative; top: 500px; left: 100px;
     animation: Opacidad 3s normal;
 }
 #Messi {
@@ -68,47 +68,44 @@ a{
         opacity: 100%;
     }
 }
-@media screen and (max-width: 2000px) {
-    #LIONEL {
-        font-size: 100px;
-        top: 480px;
-        left: 40px;
-    }
-
-    #MESSI {
-        font-size: 150px;
-        top: 400px;
-        left: 40px; 
-    }
-    center {
-        background-color: rgba(250, 165, 179, 0.363);
-    }
-}
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     #LIONEL {
         font-size: 60px;
-        top: 65px;
+        top: 0px;
         left: 0px;
     }
 
     #MESSI {
-        font-size: 80px;
-        top: 20px;
+        font-size: 85px;
+        top: -50px;
         left: 0px; 
     }
     center {
         background-color: rgba(250, 165, 179, 0.363);
     }
-}@media screen and (max-width: 380px) {
+}@media screen and (max-width: 500px) {
     #LIONEL {
-        font-size: 70px;
-        top: 600px;
+        font-size: 55px;
+        top: 320px;
         left: 0px;
     }
 
     #MESSI {
-        font-size: 90px;
-        top: 550px;
+        font-size: 63px;
+        top: 280px;
         left: 0px; 
+    }
+}
+@media screen and (max-width:500px, max-height:850px) {
+    #LIONEL {
+        font-size: 55px ;
+        top: 400px;
+        left: 0px;
+    }
+
+    #MESSI {
+        font-size: 65px ;
+        top: 365px;
+        left: 0px;
     }
 }
