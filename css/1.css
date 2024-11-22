@@ -68,32 +68,47 @@ a{
         opacity: 100%;
     }
 }
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 2000px) {
     #LIONEL {
-        font-size: 45px;
-        top: 360px;
+        font-size: 100px;
+        top: 480px;
+        left: 40px;
+    }
+
+    #MESSI {
+        font-size: 150px;
+        top: 400px;
+        left: 40px; 
+    }
+    center {
+        background-color: rgba(250, 165, 179, 0.363);
+    }
+}
+@media screen and (max-width: 800px) {
+    #LIONEL {
+        font-size: 60px;
+        top: 65px;
         left: 0px;
     }
 
     #MESSI {
-        font-size: 60px;
-        top: 320px;
+        font-size: 80px;
+        top: 20px;
         left: 0px; 
-    }
-}
-@media screen and (min-width: 800px) {
-    #LIONEL {
-        font-size: 45px;
-        top: 50px;
-        left: 20px;
-    }
-
-    #MESSI {
-        font-size: 60px;
-        top: 10px;
-        left: 20px; 
     }
     center {
         background-color: rgba(250, 165, 179, 0.363);
+    }
+}@media screen and (max-width: 380px) {
+    #LIONEL {
+        font-size: 70px;
+        top: 600px;
+        left: 0px;
+    }
+
+    #MESSI {
+        font-size: 90px;
+        top: 550px;
+        left: 0px; 
     }
 }
